@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 html {
   box-sizing: border-box;
 }
@@ -11,3 +13,108 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/*Start my Utilities classes*/
+.font-bold {
+  font-weight: bold;
+}
+
+.font-semi {
+  font-weight: 400;
+}
+
+.main-color {
+  color: #40a9ff!important;
+}
+
+.secondary-color {
+  color: #e6f7ff!important;
+}
+
+.third-color {
+  color: #777!important;
+}
+
+.main-bg {
+  background-color: #40a9ff!important;
+}
+
+.secondary-bg {
+  background-color: #e6f7ff!important;
+}
+
+.third-bg {
+  background-color: #777!important;
+}
+
+.main-border {
+  border: 1px solid #40a9ff;
+}
+
+.secondary-border {
+  border: 1px solid #e6f7ff;
+}
+
+.third-border {
+  border: 1px solid #777;
+}
+
+.shadow {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)!important;
+}
+
+.radius {
+  border-radius: 10px!important;
+}
+
+.par {
+  line-height: 1.12;
+  color: #777;
+  font-size: 16px;
+}
+
+.z-index {
+  z-index: 999!important;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.notify-text {
+  font-size: 12px;
+}
+
+.view-page {
+  min-height: 85vh;
+}
+
+.underline {
+  text-decoration: underline!important;
+}
+/*End my Utilities classes*/
+
+/*override classes*/
+.ant-select-selection-item img {
+  display: none;
+}
+
+.navbar-light .navbar-toggler {
+  outline: none;
+}
+
+.navbar a.active {
+  border-bottom: 2px solid #40a9ff;
+}
+
+.ant-tabs-tab div[aria-selected = false] {
+  color: #777;
+}
+
+.ant-tabs-tab div[aria-selected = true] {
+  font-weight: bold;
+}
+
+.ant-radio-wrapper span.ant-radio-checked + span {
+    font-weight: bold;
+    color: #40a9ff;
+}

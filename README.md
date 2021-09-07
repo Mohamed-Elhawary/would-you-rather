@@ -1,100 +1,119 @@
-# Would You Rather Project
+# Would You Rather
 
-This is the starter code for the final assessment project for Udacity's React & Redux course.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6367e432-6f08-417f-9123-2b8d9f4d39b9/deploy-status)](https://app.netlify.com/sites/would-you-rather14/deploys)
 
-The `_DATA.js` file represents a fake database and methods that let you access the data. The only thing you need to edit in the ` _DATA.js` file is the value of `avatarURL`. Each user should have an avatar, so you’ll need to add the path to each user’s avatar.
+Would You Rather is an Questionnaire App that allows you to ask and answer Questions about what you rather between only two options, it allows you to answer your own question or any other user's question, add and ask a new question to the other users, also you can access the leaderboard page to see the active state of the users according to their score.
 
-Using the provided starter code, you'll build a React/Redux front end for the application. We recommend using the [Create React App](https://github.com/facebook/create-react-app) to bootstrap the project.
+![Screenshot](preview.png) 
+## Demo
 
-## Data
+https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-9af2-4f3111c0cadc.mp4
 
-There are two types of objects stored in our database:
+## Instructions, Building & Getting Started  
+    - 1- Fork, clone or download this repository to your local machine.
+    - 2- Be sure that you install the [Node.js](https://nodejs.org/en/) environment in your machine.
+    - 3- Open your terminal and Be sure that you are inside the correct destination of the App, while you must be in the same path of the package.json file and the website folder.
+    - 4- inside your terminal run these commands:-
+    
+        * to install dependencies.
+        ```
+        npm install
+        ```
+        * to start the server.
+        ```
+        npm start
+        ```
+    - 5- Once the app server is running visit (localhost:3000) in the browser to view the app and now you can treat with it as shown above in the Demo.
 
-* Users
-* Questions
+    - 6- You can also see a live preview of the app from this Link (https://would-you-rather14.netlify.app/)
 
-### Users
+## Pages
 
-Users include:
+* Login
+* Dashboard
+* Leaderboard
+* New Question
+* Question
+* 404
+## Built With
 
-| Attribute    | Type             | Description           |
-|-----------------|------------------|-------------------         |
-| id                 | String           | The user’s unique identifier |
-| name          | String           | The user’s first name  and last name     |
-| avatarURL  | String           | The path to the image file |
-| questions | Array | A list of ids of the polling questions this user created|
-| answers      | Object         |  The object's keys are the ids of each question this user answered. The value of each key is the answer the user selected. It can be either `'optionOne'` or `'optionTwo'` since each question has two options.
+* HTML
+* CSS
+* JS
 
-### Questions
+## Libraries & Packages
 
-Questions include:
+* [Redux](https://redux.js.org/)
+* [React Redux](https://react-redux.js.org/)
+* [React Icons](https://react-icons.github.io/react-icons/)
+* [Redux Thunk](https://www.npmjs.com/package/redux-thunk)
+* [React Router](https://www.npmjs.com/package/react-router)
+* [React Router Dom](https://www.npmjs.com/package/react-router-dom)
 
-| Attribute | Type | Description |
-|-----------------|------------------|-------------------|
-| id                  | String | The question’s unique identifier |
-| author        | String | The author’s unique identifier |
-| timestamp | String | The time when the question was created|
-| optionOne | Object | The first voting option|
-| optionTwo | Object | The second voting option|
+## Frameworks 
 
-### Voting Options
+* [React.js](https://reactjs.org/)  
+* [Antdesign](https://ant.design/)
+* [React Bootstrap](https://react-bootstrap.github.io/)
+## Author
 
-Voting options are attached to questions. They include:
+* Mohamed Elhawary  
 
-| Attribute | Type | Description |
-|-----------------|------------------|-------------------|
-| votes             | Array | A list that contains the id of each user who voted for that option|
-| text                | String | The text of the option |
+## Contact Me by my Social Accounts
 
-Your code will talk to the database via 4 methods:
+* Email: mohamed.k.elhawary@gmail.com  
 
-* `_getUsers()`
-* `_getQuestions()`
-* `_saveQuestion(question)`
-* `_saveQuestionAnswer(object)`
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
 
-1) `_getUsers()` Method
+* [Codepen](https://codepen.io/Mohamed-ElHawary)
 
-*Description*: Get all of the existing users from the database.  
-*Return Value*: Object where the key is the user’s id and the value is the user object.
+* [Behance](https://www.behance.net/mohamed-elhawary14)
 
-2) `_getQuestions()` Method
+## Deploy with Me
 
-*Description*: Get all of the existing questions from the database.  
-*Return Value*: Object where the key is the question’s id and the value is the question object.
+Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with you, just test it First.
 
-3) `_saveQuestion(question)` Method
+## Notices & Overview about the App
 
-*Description*: Save the polling question in the database.  
-*Parameters*:  Object that includes the following properties: `author`, `optionOneText`, and `optionTwoText`. More details about these properties:
+- This Application is a Practical Project from Udacity Nanodegree Program in the Field of Web Development Advanced Track.
 
-| Attribute | Type | Description |
-|-----------------|------------------|-------------------|
-| author | String | The id of the user who posted the question|
-| optionOneText| String | The text of the first option |
-| optionTwoText | String | The text of the second option |
+- The App depends on a fake static database, using customized methods to make requests which deal with this fake static database.
 
-*Return Value*:  An object that has the following properties: `id`, `author`, `optionOne`, `optionTwo`, `timestamp`. More details about these properties:
+- You have the ability to login with 3 optional users in the login form, and you have to choose at least one user to can access the internal pages of the app.
 
-| Attribute | Type | Description |
-|-----------------|------------------|-------------------|
-| id | String | The id of the question that was posted|
-| author | String | The id of the user who posted the question|
-| optionOne | Object | The object has a text property and a votes property, which stores an array of the ids of the users who voted for that option|
-| optionTwo | Object | The object has a text property and a votes property, which stores an array of the ids of the users who voted for that option|
-|timestamp|String | The time when the question was created|
+- The App contains 404 page which will be rendered if the user access not available page.
 
-4) `_saveQuestionAnswer(object)` Method
+- Due to dealing with fake static database, so if you try to reload the App at any time, your progrees in the App about adding or answering questions will be lost, and the data will be reset to its initial state.
 
-*Description*: Save the answer to a particular polling question in the database.
-*Parameters*: Object that contains the following properties: `authedUser`, `qid`, and `answer`. More details about these properties:
+- The `_DATA.js` file represents the fake static database and methods that let you access this data.
 
-| Attribute | Type | Description |
-|-----------------|------------------|-------------------|
-| authedUser | String | The id of the user who answered the question|
-| qid | String | The id of the question that was answered|
-| answer | String | The option the user selected. The value should be either `"optionOne"` or `"optionTwo"`|
+- There are two types of objects stored in the fake static database: [Questions & Users]
 
-## Contributing
+- Your code will talk to the database via 4 methods:
+    * `_getUsers()`
+    * `_getQuestions()`
+    * `_saveQuestion(question)`
+    * `_saveQuestionAnswer(object)`
+    ---------------------------------------------------
 
-This repository is the starter code for *all* Udacity students. Therefore, we most likely will not accept pull requests. For details, check out [CONTRIBUTING.md](https://github.com/udacity/reactnd-project-would-you-rather-starter/blob/master/CONTRIBUTING.md).
+    1) `_getUsers()` Method:
+    *Description*: Get all of the existing users from the database.  
+    *Return Value*: Object where the key is the user’s id and the value is the user object.
+
+    2) `_getQuestions()` Method:
+    *Description*: Get all of the existing questions from the database.  
+    *Return Value*: Object where the key is the question’s id and the value is the question object.
+
+    3) `_saveQuestion(question)` Method:
+    *Description*: Save the polling question in the database.  
+    *Parameters*:  Object that includes the following properties: `author`, `optionOneText`, and `optionTwoText`.
+    *Return Value*:  An object that has the following properties: `id`, `author`, `optionOne`, `optionTwo`, `timestamp`.
+
+    4) `_saveQuestionAnswer(object)` Method:
+    *Description*: Save the answer to a particular polling question in the database.
+    *Parameters*: Object that contains the following properties: `authedUser`, `qid`, and `answer`.
+
+- Finally, you can take this App as a a reference and strong practical & revision to understand the working logic of `redux`, `react-redux` & middlware like `redux-thunk` and how they inteact with a react App.
+## License
+
+Licensed under the [MIT License](LICENSE)
