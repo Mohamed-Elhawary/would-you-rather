@@ -113,7 +113,7 @@ Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with
     *Description*: Save the answer to a particular polling question in the database.
     *Parameters*: Object that contains the following properties: `authedUser`, `qid`, and `answer`.
 
-- Finally, you can take this App as a a reference and strong practical & revision to understand the working logic of `redux`, `react-redux` & middlware like `redux-thunk` and how they inteact with a react App.
+- Finally, you can take this App as a reference and strong practical & revision to understand the working logic of `redux`, `react-redux` & middlware like `redux-thunk` and how they inteact with a react App.
 ## License
 
 Licensed under the [MIT License](LICENSE)
