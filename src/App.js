@@ -12,7 +12,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<LoadingBar style={{"z-index": "999", backgroundColor: "#40a9ff"}}/>
+				<LoadingBar style={{zIndex: "999", backgroundColor: "#40a9ff"}}/>
 				<Layout>
 					<Routes />
 				</Layout>

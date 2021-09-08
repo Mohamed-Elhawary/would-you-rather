@@ -8,9 +8,9 @@ const Routes = () => {
         <Switch>
             <PrivateRoute path="/" exact component={Dashboard} />
             <PrivateRoute path="/leaderboard" exact component={Leaderboard} />
-            <PrivateRoute path="/question/:id" component={QuestionPage} />
-            <PrivateRoute path="/new" component={NewQuestion} />
-            <PrivateRoute path="/404" component={NotFound} />
+            <PrivateRoute path="/question/:id" exact component={QuestionPage} />
+            <PrivateRoute path="/new" exact component={NewQuestion} />
+            <PrivateRoute path="/404" exact component={NotFound} />
             <Route path="/login" exact component={Login} />
             <Redirect to="/404" />
             {/* <PrivateRoute path="/new" component={NewQuestion} />

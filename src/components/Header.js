@@ -12,7 +12,7 @@ const Header = ({authedUser, users, dispatch}) => {
 	return (
 		<Navbar bg="light" variant="light" expand="lg" collapseOnSelect >
 			<Container>
-				<Navbar.Brand><Link to="/" exact><img src={logo} alt="logo" width="50" height="50" /></Link></Navbar.Brand>
+				<Navbar.Brand><Link to="/"><img src={logo} alt="logo" width="50" height="50" /></Link></Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />	
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="me-auto">
