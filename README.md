@@ -81,7 +81,7 @@ Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with
 
 - You have the ability to login with 3 optional users in the login form, and you have to choose at least one user to can access the internal pages of the app.
 
-- The App contains 404 page which will be rendered if the user access not available page.
+- The App contains 404 page which will be rendered if the user tries to access a not available page.
 
 - Due to dealing with fake static database, so if you try to reload the App at any time, your progrees in the App about adding or answering questions will be lost, and the data will be reset to its initial state.
 
@@ -113,7 +113,7 @@ Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with
     *Description*: Save the answer to a particular polling question in the database.
     *Parameters*: Object that contains the following properties: `authedUser`, `qid`, and `answer`.
 
-- Finally, you can take this App as a reference and strong practical & revision to understand the working logic of `redux`, `react-redux` & middlware like `redux-thunk` and how they inteact with a react App.
+- Finally, you can take this App as a reference and strong practical & revision to understand the working logic of `redux`, `react-redux` & middlware like `redux-thunk` and how they interact with a react App.
 ## License
 
 Licensed under the [MIT License](LICENSE)
