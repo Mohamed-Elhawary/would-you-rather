@@ -2,17 +2,21 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6367e432-6f08-417f-9123-2b8d9f4d39b9/deploy-status)](https://app.netlify.com/sites/would-you-rather14/deploys)
 
-Would You Rather is a Questionnaire app that allows you to ask and answer questions about what you rather between only two options, it allows you to answer your own question or any other user's question, add and ask a new question to the other users, also you can access the leaderboard page to see the active state of the users according to their score.
+Would You Rather is a Questionnaire App allows you to ask and answer questions about what you rather between only two options, you can answer your own question or any other user's question, add and ask a new question to other users, also you can access the leaderboard page to see the active state of the users according to their score.
+
+You can view the App from [here](https://would-you-rather14.netlify.app/)
 
 ![Screenshot](preview.png) 
+
 ## Demo
 
 https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-9af2-4f3111c0cadc.mp4
 
-## Instructions, Building & Getting Started  
+## Instructions, Building & Get Started
+
     - 1- Fork, clone or download this repository to your local machine.
     - 2- Be sure that you install the [Node.js](https://nodejs.org/en/) environment in your machine.
-    - 3- Open your terminal and Be sure that you are inside the correct destination of the App, while you must be in the same path of the package.json file and the website folder.
+    - 3- Open your terminal and be sure that you are inside the correct destination of the App, while you must be in the same path of the package.json file.
     - 4- inside your terminal run these commands:-
     
         * to install dependencies.
@@ -23,9 +27,8 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
         ```
         npm start
         ```
-    - 5- Once the app server is running visit (localhost:3000) in the browser to view the app and now you can treat with it as shown above in the Demo.
-
-    - 6- You can also see a live preview of the app from this Link (https://would-you-rather14.netlify.app/)
+    - 5- Once the App server is running visit (localhost:3000) in the browser to view the App and now you can treat with it as shown above in the Demo.
+    - 6- You can also see a live preview of the App from this Link (https://would-you-rather14.netlify.app/)
 
 ## Pages
 
@@ -35,6 +38,7 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
 * New Question
 * Question
 * 404
+
 ## Built With
 
 * HTML
@@ -55,41 +59,37 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
 * [React.js](https://reactjs.org/)  
 * [Antdesign](https://ant.design/)
 * [React Bootstrap](https://react-bootstrap.github.io/)
+
 ## Author
 
-* Mohamed Elhawary  
+* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/) 
 
-## Contact Me by my Social Accounts
+## Contact me through my social accounts
 
-* Email: mohamed.k.elhawary@gmail.com  
-
-* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
-
-* [Codepen](https://codepen.io/Mohamed-ElHawary)
-
+* Email: mohamed.k.elhawary@gmail.com
+* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Github](https://github.com/Mohamed-Elhawary)  
 * [Behance](https://www.behance.net/mohamed-elhawary14)
-
-## Deploy with Me
-
-Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with you, just test it First.
+* [Codepen](https://codepen.io/Mohamed-ElHawary) 
 
 ## Notices & Overview about the App
 
-- This Application is a Practical Project from Udacity Nanodegree Program in the Field of Web Development Advanced Track.
+- This App is a practical project from Udacity Course [Nanodegree Program - Web Development Advanced Track](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000)
 
-- The App depends on a fake static database, using customized methods to make requests which deal with this fake static database.
+- The App depends on a fake static database, using customized methods to send requests and get questions from this database.
 
-- You have the ability to login with 3 optional users in the login form, and you have to choose at least one user to can access the internal pages of the app.
+- You have the ability to login with the option of 3 users in the login form, and you have to choose one user to be able to access the internal pages of the App.
 
-- The App contains 404 page which will be rendered if the user tries to access a not available page.
+- The App contains of 404 page which will be rendered if the user tries to access a not available page.
 
 - Due to dealing with fake static database, so if you try to reload the App at any time, your progrees in the App about adding or answering questions will be lost, and the data will be reset to its initial state.
 
-- The `_DATA.js` file represents the fake static database and methods that let you access this data.
+- The `_DATA.js` file represents the fake static database and the methods that let you access this database.
 
-- There are two types of objects stored in the fake static database: [Questions & Users]
+- There are two types of objects stored in the fake static database: [`Questions` & `Users`]
 
-- Your code will talk to the database via 4 methods:
+- The App contacts with the database via 4 methods:
+
     * `_getUsers()`
     * `_getQuestions()`
     * `_saveQuestion(question)`
@@ -113,7 +113,12 @@ Feel Free to Deploy it with me, send Issues or a Pull Request and i'll deal with
     *Description*: Save the answer to a particular polling question in the database.
     *Parameters*: Object that contains the following properties: `authedUser`, `qid`, and `answer`.
 
-- Finally, you can take this App as a reference and strong practical & revision to understand the working logic of `redux`, `react-redux` & middlware like `redux-thunk` and how they interact with a react App.
+- Finally, you can consider this App as a reference and strong practical & revision to understand the working logic of `redux`, `react-redux` & middlware like `redux-thunk` and how they interact with a react App.
+
+## Certificate
+
+[Course Certificate](Certificate.pdf)
+
 ## License
 
 Licensed under the [MIT License](LICENSE)
