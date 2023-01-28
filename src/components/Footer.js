@@ -1,6 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import { 
+    AiFillLinkedin, 
+    AiFillGithub, 
+    AiFillCodepenCircle, 
+    AiFillBehanceCircle 
+} from "react-icons/ai";
+import signature from "../assets/images/signature.png";
 
 const Footer = ({authedUser}) => {
     return (
@@ -21,8 +28,21 @@ const Footer = ({authedUser}) => {
                 </div>
             </div>
             <div className="bottom-content text-center">
-                <p className="par secondary-color">All Rights are Reserved &copy; {new Date().getFullYear()}</p>
-                <p className="par secondary-color">Made by <a href="https://github.com/Mohamed-Elhawary" target="_blank" className="secondary-color underline font-bold">HaWaRy</a></p>
+                All Rights reserved &copy; {new Date().getFullYear()}, <a href="https://github.com/Mohamed-Elhawary/would-you-rather" target="_blank">Would You Rather</a> {/* eslint-disable-line */}
+                <p className="author">
+                    <div>
+                        Made by: 
+                        <a href="https://www.linkedin.com/in/mohamed-elhawary14/" target="_blank"> {/* eslint-disable-line */} 
+                            <img src={signature} alt="signature" width="100" height="40" />
+                        </a>
+                    </div>
+                </p> 
+                <ul className="social">
+                    <li className="mr-3"><a href="https://www.linkedin.com/in/mohamed-elhawary14/" target="_blank"><AiFillLinkedin size={30} /></a></li> {/* eslint-disable-line */}
+                    <li className="mr-3"><a href="https://github.com/Mohamed-Elhawary" target="_blank"><AiFillGithub size={30} /></a></li> {/* eslint-disable-line */}
+                    <li className="mr-3"><a href="https://codepen.io/Mohamed-ElHawary" target="_blank"><AiFillCodepenCircle size={30} /></a></li> {/* eslint-disable-line */}
+                    <li className="mr-3"><a href="https://www.behance.net/mohamed-elhawary14" target="_blank"><AiFillBehanceCircle size={30} /></a></li> {/* eslint-disable-line */}
+                </ul>
             </div>
         </div>
     )

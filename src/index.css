@@ -118,3 +118,30 @@ body {
     font-weight: bold;
     color: #40a9ff;
 }
+
+.footer a, .footer p, .footer {
+  text-decoration: none;
+  color: #fff!important;
+}
+
+.footer .author div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer .author img {
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+  border-radius: 12px;
+  box-shadow: 1px 2px 10px #ccc;
+}
+
+.footer .social {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+}
