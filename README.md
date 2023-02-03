@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
 ## Frameworks 
 
 * [React.js](https://reactjs.org/)  
-* [Antdesign](https://ant.design/)
+* [Ant Design](https://ant.design/)
 * [React Bootstrap](https://react-bootstrap.github.io/)
 
 ## Author
@@ -82,7 +82,7 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
 
 - The App contains of 404 page which will be rendered if the user tries to access a not available page.
 
-- Due to dealing with fake static database, so if you try to reload the App at any time, your progrees in the App about adding or answering questions will be lost, and the data will be reset to its initial state.
+- Due to dealing with fake static database, so if you try to reload the App at any time, your progress in the App about adding or answering questions will be lost, and the data will be reset to its initial state.
 
 - The `_DATA.js` file represents the fake static database and the methods that let you access this database.
 
@@ -113,7 +113,7 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
     *Description*: Save the answer to a particular polling question in the database.
     *Parameters*: Object that contains the following properties: `authedUser`, `qid`, and `answer`.
 
-- Finally, you can consider this App as a reference and strong practical & revision to understand the working logic of `redux`, `react-redux` & middlware like `redux-thunk` and how they interact with a react App.
+- Finally, you can consider this App as a reference and strong practical & revision to understand the working logic of `redux`, `react-redux` & middleware like `redux-thunk` and how they interact with a react App.
 
 ## Certificate
 
