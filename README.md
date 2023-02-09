@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
 ## Instructions, Building & Get Started
 
     - 1- Fork, clone or download this repository to your local machine.
-    - 2- Be sure that you install the [Node.js](https://nodejs.org/en/) environment in your machine.
+    - 2- Be sure that you install the Node.js environment in your machine.
     - 3- Open your terminal and be sure that you are inside the correct destination of the App, while you must be in the same path of the package.json file.
     - 4- Inside your terminal run these commands:-
     
@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
         ```
         npm start
         ```
-    - 5- Once the App server is running visit (localhost:3000) in the browser to view the App and now you can treat with it as shown above in the Demo.
+    - 5- Once the App server is running, visit (localhost:3000) in the browser to view the App and now you can treat with it as shown above in the Demo.
     - 6- You can also see a live preview of the App from this Link (https://would-you-rather14.netlify.app/)
 
 ## Pages
