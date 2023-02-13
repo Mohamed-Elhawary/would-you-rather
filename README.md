@@ -39,7 +39,7 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
 * Question
 * 404
 
-## Built With
+## Built with
 
 * HTML
 * CSS
@@ -56,21 +56,9 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
 
 ## Frameworks 
 
-* [React.js](https://reactjs.org/)  
+* [React](https://reactjs.org/)  
 * [Ant Design](https://ant.design/)
 * [React Bootstrap](https://react-bootstrap.github.io/)
-
-## Author
-
-* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/) 
-
-## Contact me through my social accounts
-
-* Email: mohamed.k.elhawary@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
-* [Github](https://github.com/Mohamed-Elhawary)  
-* [Behance](https://www.behance.net/mohamed-elhawary14)
-* [Codepen](https://codepen.io/Mohamed-ElHawary) 
 
 ## Notices & Overview about the App
 
@@ -118,6 +106,18 @@ https://user-images.githubusercontent.com/69651552/132402671-b64aaefb-b3e6-4f15-
 ## Certificate
 
 [Course Certificate](Certificate.pdf)
+
+## Author
+
+* [Mohamed Elhawary](https://www.linkedin.com/in/mohamed-elhawary14/) 
+
+## Contact me through my social accounts
+
+* Email: mohamed.k.elhawary@gmail.com
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Github](https://github.com/Mohamed-Elhawary)  
+* [Behance](https://www.behance.net/mohamed-elhawary14)
+* [Codepen](https://codepen.io/Mohamed-ElHawary) 
 
 ## License
 
