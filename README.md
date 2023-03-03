@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6367e432-6f08-417f-9123-2b8d9f4d39b9/deploy-status)](https://app.netlify.com/sites/would-you-rather14/deploys)
 
-Would You Rather is a Questionnaire App allows you to ask and answer questions about what you rather between only two options, you can answer your own question or any other user's question, add and ask a new question to other users, also you can access the leaderboard page to see the active state of the users according to their score.
+Would You Rather is a Questionnaire App that allows you to ask and answer questions about what you rather between only two options, you can answer your own question or any other user's question, add and ask a new question to other users, also you can access the leaderboard page to see the active state of the users according to their score.
 
 You can view the App from [here](https://would-you-rather14.netlify.app/)
 
